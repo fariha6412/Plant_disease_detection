@@ -1,0 +1,8 @@
+flask
+matplotlib
+opencv-python
+numpy==1.22.0
+joblib==0.14.1
+keras==2.11.0
+Keras-Preprocessing
+tensorflow==2.11.0
