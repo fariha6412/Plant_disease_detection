@@ -10,7 +10,7 @@ from PIL import Image
 from keras.models import load_model
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image as img
-from keras.preprocessing.image import load_img, img_to_array
+from tensorflow.keras.utils import load_img, img_to_array
 def run_model(img):
 	try :
 	   model = tf.keras.models.load_model('model2.h5')
